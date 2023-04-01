@@ -5,5 +5,5 @@ export const Button = ({ text, onClick }) => {
     <div className="btn btn-primary">
       <button onClick={onClick}>{text}</button>
     </div>
-  );
-};
+  )
+}
